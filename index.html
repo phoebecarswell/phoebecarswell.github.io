@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+
+<link href="https://fonts.googleapis.com/css?family=Comfortaa|Six+Caps" rel="stylesheet">
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>
+    Phoebe Carswell
+  </title>
+
+</head>
+
+<body>
+
+<link rel="stylesheet" href="styles.css" />
+
+<div class="header">
+    phoebe carswell design
+</div>
+
+<div class="nav">
+
+<ol>
+
+<ul> <a href="index.html" class="home"> Home </a> </ul>
+<ul> <a href="about.html" class="about"> About </a> </ul>
+<ul> <a href="portfolio.html" class="portfolio"> Portfolio </a> </ul>
+<ul> <a href="contact.html" class="contact"> Contact </a> </ul>
+<ul> <a href="https://phoebecarswell.wordpress.com/blog/" class="blog"> Blog </a> </ul>
+
+</ol>
+
+</div>
+
+<div class="line">
+  <hr> </hr>
+</div>
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="1.png" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="2.png" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="3.png" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="4.png" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+
+<div class="socialmediaiconshome">
+
+<a href="https://www.facebook.com/phoebe.carswell" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/phoebecarswell/" class="fa fa-instagram"></a>
+<a href="https://www.pinterest.com/phoebecarswell/" class="fa fa-pinterest"></a>
+
+</div>
+
+</body>
+
+</html>

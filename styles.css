@@ -1,0 +1,273 @@
+
+
+.background {
+  background-color: white;
+}
+
+.header {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 60px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  text-align: center;
+  padding-bottom: 1px;
+
+}
+
+.nav {
+  font-family: 'Comfortaa',cursive;
+  font-size: 15px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  height: 10px;
+}
+
+
+.nav ul {
+  padding: 19px 66px;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav a:active {
+  color: #999995;
+}
+
+.line {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.aboutheader {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Six Caps', sans-serif;
+  font-size: 4rem;
+
+}
+
+
+{box-sizing:border-box}
+
+.slideshow-container {
+ max-width: 920px;
+ position: relative;
+ margin: auto;
+}
+
+.mySlides {
+   display: none;
+}
+
+
+.prev, .next {
+ cursor: pointer;
+ position: absolute;
+ top: 50%;
+ width: auto;
+ margin-top: -22px;
+ padding: 16px;
+ color: white;
+ font-weight: bold;
+ font-size: 40px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+}
+
+
+.next {
+ right: 0;
+ border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+ background-color: rgba(0,0,0,0.8);
+}
+
+
+.numbertext {
+ color: #f2f2f2;
+ font-size: 12px;
+ padding: 8px 12px;
+ position: absolute;
+ top: 0;
+}
+
+
+
+
+.fade {
+ -webkit-animation-name: fade;
+ -webkit-animation-duration: 1.5s;
+ animation-name: fade;
+ animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+ from {opacity: .4}
+ to {opacity: 1}
+}
+
+@keyframes fade {
+ from {opacity: .4}
+ to {opacity: 1}
+}
+
+
+.line2 {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutimage img {
+  width: 37%;
+  height: auto;
+  margin-left: auto;
+  margin-right: 172.6px;
+  margin-top: 15px;
+  max-width: 920px;
+  float: right;
+}
+
+.abouttext p {
+  width: 403px;
+  margin-left: 170px;
+  margin-right: auto;
+  float: left;
+  font-family: 'Comfortaa', cursive;
+}
+
+
+.socialmediaiconshome {
+  max-width: 920px;
+  margin-left: 550px;
+  margin-right: auto;
+
+}
+
+.socialmediaiconsabout {
+  max-width: 920px;
+  margin-left: 550px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 30%;
+
+}
+
+.socialmediaiconscontact {
+  max-width: 920px;
+  margin-left: 550px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 34%;}
+
+  .socialmediaiconsportfolio {
+    max-width: 920px;
+    margin-left: 550px;
+    margin-right: auto;
+    margin-top: 1%;}
+
+  .contactheader {
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 4rem;
+  }
+
+  .contactimage img {
+    width: 37%;
+    height: auto;
+    margin-left: auto;
+    margin-right: 172.6px;
+    margin-top: 15px;
+    max-width: 920px;
+    float: right;
+  }
+
+  .titles {
+    width: 100px;
+    margin-left: 170px;
+    margin-right: auto;
+    float: left;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 3.5rem;
+    margin-top: 10px;
+}
+
+  .contacttext {
+    width: 170px;
+    font-family: 'Comfortaa', cursive;
+    float: left;
+    margin-top: 34px;
+    font-size: 1.2rem;
+    margin-left: 4px;
+}
+
+.portfolioheader {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Six Caps', sans-serif;
+  font-size: 4rem;
+}
+
+.flexbin {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flexbin img {
+  width: 300px;
+  height: auto;
+}
+
+
+
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+
+}
+
+
+.fa-facebook {
+    background: black;
+    color: white;
+}
+
+.fa-instagram {
+    background: black;
+    color: white;
+}
+
+.fa-pinterest{
+    background: black;
+    color: white;
+}
